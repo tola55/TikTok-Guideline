@@ -1,0 +1,58 @@
+/* ||REVIEW || */
+.Review {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  border-bottom: 1px solid white;
+}
+
+.Review button {
+  width: 80px;
+  padding: 0.15rem;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.Breview {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.Breview button:hover,
+button:focus {
+  cursor: pointer;
+  filter: brightness(200%);
+}
+
+.Next {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+
+.Next button {
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  color: black;
+}
+
+.Next button:hover,
+button:focus {
+  filter: brightness(200%);
+  cursor: pointer;
+}

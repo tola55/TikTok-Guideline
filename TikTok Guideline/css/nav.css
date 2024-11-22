@@ -1,0 +1,33 @@
+/* ||Pages|| */
+
+.display {
+  background-color: black;
+  border-right: 1px solid white;
+  width: auto;
+}
+
+.display nav {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.75rem;
+  white-space: nowrap;
+  padding: 3rem;
+  position: sticky;
+  top: 90px;
+  border-right: 1px solid white;
+}
+
+.pages a {
+  font-size: 0.75rem;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.496);
+  border-left: 1px solid rgba(255, 0, 0, 0.314);
+  padding-left: 0.2rem;
+}
+
+.pages a:focus,
+.pages a:hover {
+  border-left: 1px solid red;
+  padding-left: 0.2rem;
+  color: white;
+}

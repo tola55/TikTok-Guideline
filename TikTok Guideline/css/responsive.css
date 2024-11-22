@@ -1,0 +1,171 @@
+/* || Media Querry || */
+
+/* ||Small than medium (ok)*/
+@media screen and (min-width: 541px) {
+  .dropdown {
+    display: none;
+  }
+  .display {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  footer {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 4rem;
+    justify-content: space-between;
+    padding: 1rem;
+    border-top: 1px solid white;
+  }
+}
+
+/* ||half Window Screen || */
+@media screen and (min-width: 50%) {
+  .dropdown {
+    display: none;
+  }
+  .display {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  footer {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 4rem;
+    justify-content: space-between;
+    padding: 1rem;
+    border-top: 1px solid white;
+  }
+}
+
+/* || A bit Small Than Large */
+@media screen and (min-width: 768px) {
+  .display {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  .dropdown {
+    display: none;
+  }
+  footer {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 4rem;
+    justify-content: space-between;
+    padding: 1rem;
+    border-top: 1px solid white;
+  }
+}
+
+/* || Full Screen */
+@media screen and (min-width: 992px) {
+  .display {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  .dropdown {
+    display: none;
+  }
+  footer {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 4rem;
+    justify-content: space-between;
+    padding: 1rem;
+    border-top: 1px solid white;
+  }
+}
+
+/* || XL  */
+@media screen and (min-width: 1200px) {
+  .dropdown {
+    display: none;
+  }
+  .display {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  footer {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 4rem;
+    justify-content: space-between;
+    padding: 1rem;
+    border-top: 1px solid white;
+  }
+}
+
+/* || MOBILE DEVICE LANDSCAPE(OK)*/
+@media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
+  .display {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+}
+
+/* ||MOBILE DEVICE PORTRAIT|| */
+@media screen and (max-width: 540px) {
+  .display {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  .display nav {
+    display: none;
+  }
+
+  footer {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2rem;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1rem;
+    border-top: 1px solid white;
+  }
+
+  .header input {
+    display: none;
+  }
+
+  .dropbtn {
+    background-color: rgba(0, 0, 0, 0.299);
+    color: white;
+    padding: 8px;
+    font-size: 16px;
+    border: 0.5px solid white;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .dropdown {
+    position: sticky;
+    top: 70px;
+    background-color: black;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: white;
+    border-bottom: 1px solid white;
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #121212;
+    color: red;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+}

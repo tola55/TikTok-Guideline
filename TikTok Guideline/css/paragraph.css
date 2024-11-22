@@ -1,0 +1,31 @@
+/* ||Paragraph|| */
+
+.Paragraph {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+  padding: 1rem;
+  scroll-margin: 5rem;
+}
+
+.Paragraph p {
+  font-size: 0.75rem;
+}
+
+.Paragraph a {
+  color: red;
+  text-decoration: none;
+}
+
+.Paragraph a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+.Paragraph span {
+  text-decoration: underline;
+}
+
+.Paragraph sub {
+  color: rgb(211, 211, 211);
+}
